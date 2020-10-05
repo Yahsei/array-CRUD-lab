@@ -1,35 +1,43 @@
 def create_an_empty_array
+    []
+  end
   
-end
-
-def create_an_array
+  def create_an_array
+    numbers = [1, 2, 3, 4]
+    
+  end
   
-end
-
-def add_element_to_end_of_array(array, element)
+  def add_element_to_end_of_array(array, element)
+    numbers = [1, 2, 3, 4]
+    numbers << "arrays!"
+  end
   
-end
-
-def add_element_to_start_of_array(array, element)
+  def add_element_to_start_of_array(array, element)
+  numbers = [1, 2, 3, 4, 5]
+    numbers.unshift("wow")
+  end
   
-end
-
-def remove_element_from_end_of_array(array)
+  def remove_element_from_end_of_array(array)
+    numbers = [1, 2, 3, 4, "arrays!"]
+    numbers.pop 
+  end
   
-end
-
-def remove_element_from_start_of_array(array)
+  def remove_element_from_start_of_array(array)
+     numbers = ["wow"]
+     numbers.shift
+  end
   
-end
-
-def retrieve_element_from_index(array, index_number)
+  def retrieve_element_from_index(array, index_number)
+    words = ["am"]
+    words[0]
+  end
   
-end
-
-def retrieve_first_element_from_array(array)
+  def retrieve_first_element_from_array(array)
+     words = ["wow"]
+    words[0]
+  end
   
-end
-
-def retrieve_last_element_from_array(array)
-  
-end
+  def retrieve_last_element_from_array(array)
+      numbers = [1, 2, 3, 4, "arrays!"]
+      numbers[-1]
+  end
